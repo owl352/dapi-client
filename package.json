@@ -1,6 +1,6 @@
 {
   "name": "@dashevo/dapi-client",
-  "version": "1.2.0",
+  "version": "1.4.1",
   "description": "Client library used to access Dash DAPI endpoints",
   "main": "lib/index.js",
   "contributors": [
@@ -26,11 +26,11 @@
     }
   ],
   "dependencies": {
-    "@dashevo/dapi-grpc": "github:owl352/dapi-grpc",
-    "@dashevo/dash-spv": "^2.2.0",
-    "@dashevo/dashcore-lib": "~0.21.3",
-    "@dashevo/grpc-common": "^1.2.0",
-    "@dashevo/wasm-dpp": "^1.2.0",
+    "@dashevo/dapi-grpc": "workspace:*",
+    "@dashevo/dash-spv": "workspace:*",
+    "@dashevo/dashcore-lib": "~0.22.0",
+    "@dashevo/grpc-common": "workspace:*",
+    "@dashevo/wasm-dpp": "workspace:*",
     "bs58": "^4.0.1",
     "cbor": "^8.0.0",
     "google-protobuf": "^3.12.2",
