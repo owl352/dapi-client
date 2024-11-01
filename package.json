@@ -26,11 +26,11 @@
     }
   ],
   "dependencies": {
-    "@dashevo/dapi-grpc": "workspace:*",
-    "@dashevo/dash-spv": "workspace:*",
+    "@dashevo/dapi-grpc": "github:owl352/dapi-grpc",
+    "@dashevo/dash-spv": "^2.4.1",
     "@dashevo/dashcore-lib": "~0.22.0",
-    "@dashevo/grpc-common": "workspace:*",
-    "@dashevo/wasm-dpp": "workspace:*",
+    "@dashevo/grpc-common": "^1.4.1",
+    "@dashevo/wasm-dpp": "^1.41",
     "bs58": "^4.0.1",
     "cbor": "^8.0.0",
     "google-protobuf": "^3.12.2",
