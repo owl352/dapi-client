@@ -26,7 +26,7 @@
     }
   ],
   "dependencies": {
-    "@dashevo/dapi-grpc": "github:owl352/dapi-grpc",
+    "@dashevo/dapi-grpc": "github:owl352/dapi-grpc#experimental",
     "@dashevo/dash-spv": "^2.4.1",
     "@dashevo/dashcore-lib": "~0.22.0",
     "@dashevo/grpc-common": "^1.7.0",
