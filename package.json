@@ -29,8 +29,8 @@
     "@dashevo/dapi-grpc": "github:owl352/dapi-grpc#experimental",
     "@dashevo/dash-spv": "^2.4.1",
     "@dashevo/dashcore-lib": "~0.22.0",
-    "@dashevo/grpc-common": "^1.8.0",
-    "@dashevo/wasm-dpp": "^1.8.0",
+    "@dashevo/grpc-common": "^2.0.0-rc.14",
+    "@dashevo/wasm-dpp": "^2.0.0-rc.14",
     "bs58": "^4.0.1",
     "cbor": "^8.0.0",
     "google-protobuf": "^3.12.2",
@@ -100,5 +100,6 @@
       "clean"
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
